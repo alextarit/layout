@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url('images/home.jpg');
+    background-color: #FFF;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,26 +32,43 @@ header > h1 {
 
 header > p {
     text-align: center;
-    color: #FFF;
+    color: #000;
     font-family: 'Space Mono', monospace;
     font-size: 20px;
 }
 
 article {
-    color: #FFF;
+    width: 780px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #000;
     font-family: 'Space Mono', monospace;
     margin-bottom: 80px;
     font-size: 20px;
 }
 
-ul {
+.content-image {
+    text-align: center;;
+}
+
+.content > h3 {
+    margin: 12px;
+}
+
+
+.menu {
+    width: 920px;
+    display: flex;
+    justify-content: space-between;
     font-family: 'Space Mono', monospace;
     font-size: 20px;
     list-style: none;
 }
 
 a {
-    color: #FFF;
+    color:#000;
     text-decoration: none;
     cursor: default;
 }
@@ -74,6 +91,12 @@ a {
     }
 
     article {
+        width: 350px;
         margin-bottom: 75px;
+    }
+
+    .menu {
+        width: auto;
+        flex-direction: column;
     }
 }

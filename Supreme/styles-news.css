@@ -20,7 +20,6 @@ header {
 }
 
 header > h1 {
-    min-width: 0;
     width: 285px;
     height: 80px;
     text-align: center;
@@ -40,7 +39,7 @@ header > p {
 }
 
 article {
-    min-width: 0;
+    min-width: 0; /*Пытался поиграться с min-width, но не получилось. если закомментировать body and article то слайдер работает */
     width: 780px;
     display: flex;
     justify-content: center;

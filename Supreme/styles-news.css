@@ -11,6 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 180px 0;
+    min-width: 0;
 }
 
 header {
@@ -19,6 +20,7 @@ header {
 }
 
 header > h1 {
+    min-width: 0;
     width: 285px;
     height: 80px;
     text-align: center;
